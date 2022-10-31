@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>slider Rick and Morty</title>
+
+        <link rel="shortcut icon" href="src/imagens/Rick-And-Morty-Logo.png" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+        <!-- para linkar o css inicio -->
+        <link rel="stylesheet" href="src/css/reset.css">
+        <!-- final do link do css-->
+
+        <link rel="stylesheet" href="src/css/estilos.css">
+
+        <link rel="stylesheet" href="src/css/respnsivel.css">
+    </head>
+    <body>
+        <herder class="cabecalho">
+            <img src="src/imagens/Rick-And-Morty-Logo.png" alt="logo" class="pokebola"/>
+            <h1 class="titulo">Rick and Morty</h1>
+        </herder>
+
+        <main class="pokemon-slider">
+         <button class="btn-seta btn-voltar" id="btn-voltar">
+             <img src="src/imagens/seta.png" alt="seta voltar"/>
+            </button>
+
+            <ul class="lista-pokemons">
+                <li class="cartao selecionado fundo-1">
+                 <div class="informacoes">
+                     <h2 class="nome">Rick</h2>
+                 </div> 
+
+                 <div class="container-imagem">
+                        <img src="src/imagens/Rick.png" alt="Rick" class="imagem-pokemo"/>
+                 </div>
+                 <div class="descricao">
+                        <h3 class="titulo"> Descrição</h3>
+                     <p class="texto"> Ele é um cientista genial cujo alcoolismo e comportamento imprudente e niilista são uma fonte de preocupação para a família de sua filha, assim como a segurança de seu neto, Morty.</p>
+                 </div>
+                </li>
+
+                <li class="cartao  fundo-2">
+                    <div class="informacoes">
+                        <h2 class="nome">Morty</h2>
+                        
+                    </div> 
+   
+                    <div class="container-imagem">
+                           <img src="src/imagens/Morty.png" alt="Charizard" class="imagem-pokemo"/>
+                    </div>
+                    <div class="descricao">
+                           <h3 class="titulo"> Descrição</h3>
+                        <p class="texto">Um adolescente de 14 anos, com uma vida escolar fora do normal onde se mete em encrencas e aventuras com seu avô.</p>
+                    </div>
+                   </li>
+
+                   <li class="cartao  fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Summer</h2>
+                    </div> 
+   
+                    <div class="container-imagem">
+                           <img src="src/imagens/Summer.jpeg" alt="Summer" class="imagem-pokemo"/>
+                    </div>
+                    <div class="descricao">
+                           <h3 class="titulo"> Descrição</h3>
+                        <p class="texto">
+                            Irmã mais velha de Morty que quer ser reconhecida mundialmente famosa é ter aventuras malucas</p>
+                    </div>
+                   </li>
+
+                   <li class="cartao  fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Beth</h2>
+                    </div> 
+   
+                    <div class="container-imagem">
+                           <img src="src/imagens/Beth_Smith.png" alt="Summer" class="imagem-pokemo"/>
+                    </div>
+                    <div class="descricao">
+                           <h3 class="titulo"> Descrição</h3>
+                        <p class="texto">
+                            A mãe de Morty e Summer, também filha de Rick, convive com sua família todos os dias, seja vivendo aventuras ou com problemas familiares.</p>
+                    </div>
+                   </li>
+
+                   <li class="cartao  fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Jerry</h2>
+                    </div> 
+   
+                    <div class="container-imagem">
+                           <img src="src/imagens/Jerry_Smith.png" alt="Jerry" class="imagem-pokemo"/>
+                    </div>
+                    <div class="descricao">
+                           <h3 class="titulo"> Descrição</h3>
+                        <p class="texto">
+                            Pai de Morty e summer, é marido de Beth, um cara com sérios problemas familiares e azarado o tempo todo, possui problemas de autoestima e tenta sempre conseguir o melhor para sua família.</p>
+                    </div>
+                   </li>
+            </ul>
+
+            <button class="btn-seta" id="btn-avancar">
+                <img src="src/imagens/seta.png" alt="seta avançar"/>
+            </button>
+
+
+        </main>
+
+        <script src="src/js/index.js"></script>
+    </body>
+</html>
