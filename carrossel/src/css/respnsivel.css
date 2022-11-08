@@ -1,6 +1,6 @@
 @media (max-width: 620px){
     .pokemon-slider{
-        padding: 0 15px;
+      padding: -0 0px; 
         gap: 10px;
     }
     .btn-seta{
